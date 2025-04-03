@@ -6,9 +6,6 @@ hero:
   name: "Materlal"
   text: "A face-to-face experience"
   tagline: Let go of perfectionism
-  image:
-    src: '/public/bg.svg'
-    art: 'VitePress'
   actions:
     - theme: brand
       text: Let's get started.

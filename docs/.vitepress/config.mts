@@ -28,11 +28,14 @@ export default defineConfig({
           // ] },
           {
             text: 'Vue', collapsed: false, items: [
-              { text: '生命周期总览', link: '/InterviewMaterials/vue/proxy' },
               {
                 text: 'v2', items: [
-                  { text: '响应式原理', link: '/InterviewMaterials/vue/defineProperty' },
-                  { text: '组件通信', link: '/InterviewMaterials/vue/v2-communication' },
+                  { text: '生命周期总览', link: '/InterviewMaterials/vue/v2/created' },
+                  { text: '响应式原理', link: '/InterviewMaterials/vue/v2/defineProperty' },
+                  { text: '异步队列更新原理', link: '/InterviewMaterials/vue/v2/nextTick' },
+                  { text: 'vue.$set原理', link: '/InterviewMaterials/vue/v2/$set' },
+                  { text: '组件通信', link: '/InterviewMaterials/vue/v2/communication' },
+                  { text: 'v2弊端与改进', link: '/InterviewMaterials/vue/v2/disadvantages' },
                 ]
               },
               {
@@ -43,6 +46,7 @@ export default defineConfig({
               },
           
           ] },
+          { text: 'H5 vs RN', link: '/InterviewMaterials/h5vsRn' },
           { text: 'React', link: '/InterviewMaterials/react' },
           { text: 'Node', link: '/InterviewMaterials/node' },
           { text: 'Websocket', link: '/InterviewMaterials/websocket' },
